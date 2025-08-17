@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background transparent -->
+  <rect width="64" height="64" fill="none"/>
+  
+  <!-- Curly braces left and right -->
+  <path d="M18 10c-4 0-6 2-6 6v8c0 2-1 3-3 4 2 1 3 2 3 4v8c0 4 2 6 6 6" 
+        fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+  <path d="M46 10c4 0 6 2 6 6v8c0 2 1 3 3 4-2 1-3 2-3 4v8c0 4-2 6-6 6" 
+        fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Play button in center, shifted up by 3px -->
+  <polygon points="28,19 44,29 28,39" fill="#43A047"/>
+</svg>

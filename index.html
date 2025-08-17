@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Code Playground - Interactive Coding Environment</title>
+    <meta name="description" content="An interactive coding playground supporting Python, Java, C++, Bash, Dart, and React with real-time execution and live previews." />
+    <meta name="author" content="Naveed" />
+    <meta name="keywords" content="code playground, programming, interactive coding, Python, Java, C++, Bash, Dart, React" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Code Playground - Interactive Coding Environment" />
+    <meta property="og:description" content="Experience coding in multiple programming languages with real-time execution and interactive features." />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Code Playground - Interactive Coding Environment" />
+    <meta name="twitter:description" content="Experience coding in multiple programming languages with real-time execution and interactive features." />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <!-- Theme Color for browsers -->
+    <meta name="theme-color" content="#3b82f6" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Check if the page is being reloaded and not at the root path
+      if (performance.navigation.type === 1 && window.location.pathname !== '/') {
+        window.location.href = '/';
+      }
+    </script>
+  </body>
+</html>
