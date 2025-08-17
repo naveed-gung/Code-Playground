@@ -11,6 +11,15 @@ import Welcome from "./pages/Welcome";
 const queryClient = new QueryClient();
 
 const App = () => {
+  // Handle page refresh redirects
+  const handleBeforeUnload = (event: BeforeUnloadEvent) => {
+    // Save current path before refresh
+    sessionStorage.setItem('lastPath', window.location.pathname);
+  };
+
+  // Add event listener for page refresh
+  window.addEventListener('beforeunload', handleBeforeUnload);
+
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>

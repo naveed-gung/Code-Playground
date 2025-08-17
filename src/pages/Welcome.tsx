@@ -46,17 +46,28 @@ const Welcome = () => {
 
   // Ensure we're always showing the welcome screen on mount
   useEffect(() => {
-    // Clear any existing navigation state
-    if (window.performance && window.performance.navigation.type === window.performance.navigation.TYPE_RELOAD) {
-      window.history.replaceState(null, '', '/');
+    // Check if there was a previous path before refresh
+    const lastPath = sessionStorage.getItem('lastPath');
+    const isRefresh = window.performance && 
+      window.performance.navigation.type === window.performance.navigation.TYPE_RELOAD;
+
+    if (isRefresh && lastPath && lastPath !== '/') {
+      // Clear the stored path
+      sessionStorage.removeItem('lastPath');
+      // Navigate to stored path
+      navigate(lastPath, { replace: true });
+      return;
     }
+
+    // Clear any existing navigation state
+    window.history.replaceState(null, '', '/');
     
     // Ensure the welcome screen is visible
     document.body.style.overflow = 'hidden';
     return () => {
       document.body.style.overflow = '';
     };
-  }, []);
+  }, [navigate]);
 
   const startPlayground = async () => {
     setIsExiting(true);
@@ -69,7 +80,6 @@ const Welcome = () => {
     const languages = Object.keys(languageMap);
     const randomLanguage = languages[Math.floor(Math.random() * languages.length)] as keyof typeof languageMap;
     await new Promise(resolve => setTimeout(resolve, 500));
-    // Pass the selected language as state to preserve it through navigation
     navigate('/playground', { state: { selectedLanguage: languageMap[randomLanguage] } });
   };
 
@@ -82,7 +92,12 @@ const Welcome = () => {
       initial="hidden"
       animate={isExiting ? "exit" : "show"}
       variants={containerVariants}
-      className="min-h-screen bg-gradient-to-br from-[#E6FFDA] to-[#FCF5EB] relative overflow-y-auto"
+      className="min-h-screen bg-gradient-to-br from-[#E6FFDA] to-[#FCF5EB] relative overflow-y-auto md:overflow-y-auto max-h-[100vh] md:max-h-screen"
+      style={{
+        WebkitOverflowScrolling: 'touch',
+        scrollbarWidth: 'thin',
+        scrollbarColor: 'rgba(155, 155, 155, 0.5) transparent'
+      }}
     >
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{

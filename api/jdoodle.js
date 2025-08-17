@@ -1,15 +1,12 @@
-const express = require('express');
-const cors = require('cors');
-const axios = require('axios');
-require('dotenv').config();
+import express from 'express';
+import axios from 'axios';
 
 const app = express();
 
-app.use(cors());
 app.use(express.json());
 
 // Proxy endpoint for JDoodle credit check
-app.post('/api/jdoodle/credits', async (req, res) => {
+app.post('/credits', async (req, res) => {
   try {
     const response = await axios.post('https://api.jdoodle.com/v1/credit-spent', {
       clientId: req.body.clientId,
@@ -22,7 +19,7 @@ app.post('/api/jdoodle/credits', async (req, res) => {
 });
 
 // Proxy endpoint for JDoodle code execution
-app.post('/api/jdoodle/execute', async (req, res) => {
+app.post('/execute', async (req, res) => {
   try {
     const response = await axios.post('https://api.jdoodle.com/v1/execute', {
       clientId: req.body.clientId,
@@ -37,7 +34,4 @@ app.post('/api/jdoodle/execute', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+export default app;

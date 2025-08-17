@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 text-center flex items-center justify-center gap-4">
         <p>Code Playground© 2025. All rights reserved</p>
         <a 
-          href="https://github.com/naveed-gung/"
+          href="https://github.com/naveed-gung/Code-Playground"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-primary transition-colors"
