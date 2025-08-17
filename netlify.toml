@@ -7,12 +7,12 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/"
   status = 200
   force = true
 
 [[redirects]]
   from = "/playground/*"
-  to = "/index.html"
+  to = "/"
   status = 200
   force = true
