@@ -24,15 +24,6 @@
   <img src="https://skillicons.dev/icons?i=typescript,react,vite,tailwind" alt="Tech Stack" />
 </div>
 
-<div align="center">
-  
-  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-  [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-  [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-  
-</div>
-
 ---
 
 ## ✨ Features
@@ -128,9 +119,9 @@ Click the **Run** button to execute your code instantly.
 
 | Category | Technologies |
 |----------|-------------|
-| **Frontend** | <img src="https://skillicons.dev/icons?i=react,typescript" height="30" /> React, TypeScript |
-| **Build Tool** | <img src="https://skillicons.dev/icons?i=vite" height="30" /> Vite |
-| **Styling** | <img src="https://skillicons.dev/icons?i=tailwind" height="30" /> Tailwind CSS, Shadcn/ui |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,typescript" height="30" /> |
+| **Build Tool** | <img src="https://skillicons.dev/icons?i=vite" height="30" />  |
+| **Styling** | <img src="https://skillicons.dev/icons?i=tailwind" height="30" /> |
 | **Animation** | Framer Motion |
 | **Icons** | Lucide React |
 | **Code Execution** | JDoodle API |
