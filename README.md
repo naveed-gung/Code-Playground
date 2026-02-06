@@ -6,6 +6,13 @@
   <p align="center">
     <strong>A modern, interactive coding environment for multiple programming languages</strong>
   </p>
+
+  <p>
+    <a href="https://react.dev"><img src="https://img.shields.io/badge/React-18.x-20232A?logo=react&logoColor=61DAFB" alt="React"/></a>
+    <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white" alt="TypeScript"/></a>
+    <a href="https://vitejs.dev"><img src="https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite&logoColor=white" alt="Vite"/></a>
+    <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind-3.x-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind"/></a>
+  </p>
   
   <p align="center">
     <a href="#-features">Features</a> •
@@ -18,7 +25,7 @@
 
 ---
 
-## 📊 Tech Stack
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="25" /></picture> Tech Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=typescript,react,vite,tailwind" alt="Tech Stack" />
@@ -26,13 +33,13 @@
 
 ---
 
-## ✨ Features
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="25" /></picture> Features
 
 <table>
 <tr>
 <td width="50%">
 
-### 💻 Multi-Language Support
+### <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="20" /></picture> Multi-Language Support
 
 <img src="https://skillicons.dev/icons?i=python,java,cpp,bash,dart,react" alt="Supported Languages" />
 
@@ -46,7 +53,7 @@
 </td>
 <td width="50%">
 
-### 🎯 Core Capabilities
+### <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Bullseye.png" width="20" /></picture> Core Capabilities
 
 - **Real-time Execution** - Instant code compilation and output
 - **Syntax Highlighting** - Beautiful code presentation
@@ -61,7 +68,7 @@
 
 ---
 
-## 🚀 Quick Start
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="25" /></picture> Quick Start
 
 Get up and running in minutes:
 
@@ -83,13 +90,13 @@ Your application will be live at `http://localhost:5173` 🎉
 
 ---
 
-## 📖 Usage
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Open%20Book.png" width="25" /></picture> Usage
 
-### 1️⃣ Select Your Language
+### <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Keycap%20Digit%20One.png" width="20" /></picture> Select Your Language
 
 Navigate through the intuitive sidebar and choose your preferred programming language. Each language environment is specially crafted for optimal coding experience.
 
-### 2️⃣ Write & Execute
+### <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Keycap%20Digit%20Two.png" width="20" /></picture> Write & Execute
 
 ```typescript
 // Use the feature-rich code editor
@@ -99,13 +106,13 @@ const code = "Your awesome code here";
 
 Click the **Run** button to execute your code instantly.
 
-### 3️⃣ View Results
+### <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Keycap%20Digit%20Three.png" width="20" /></picture> View Results
 
 - Immediate output display in the results panel
 - Clear error messages and debugging information
 - Formatted output for better readability
 
-### 4️⃣ Explore Features
+### <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Keycap%20Digit%20Four.png" width="20" /></picture> Explore Features
 
 - **Theme Toggle** - Switch between light and dark modes
 - **Interactive Elements** - Click the balloon for programming facts
@@ -113,7 +120,7 @@ Click the **Run** button to execute your code instantly.
 
 ---
 
-## 🛠 Technology Stack
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="25" /></picture> Technology Stack
 
 <div align="center">
 
@@ -130,23 +137,23 @@ Click the **Run** button to execute your code instantly.
 
 ---
 
-## 🎨 Features in Detail
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Artist%20Palette.png" width="25" /></picture> Features in Detail
 
-### 🔥 Advanced Code Editor
+### <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="20" /></picture> Advanced Code Editor
 
 - **Intelligent Highlighting** - Language-specific syntax coloring
 - **Auto-completion** - Smart code suggestions
 - **Error Detection** - Real-time error highlighting
 - **Code Formatting** - Clean and readable code structure
 
-### 🌐 Secure Execution Environment
+### <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" width="20" /></picture> Secure Execution Environment
 
 - **Remote Execution** - Safe, sandboxed code running
 - **Fast Response** - Optimized for quick results
 - **Error Handling** - Comprehensive error messages
 - **Output Formatting** - Structured result display
 
-### 🎭 User Experience
+### <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Performing%20Arts.png" width="20" /></picture> User Experience
 
 - **Fluid Animations** - Smooth transitions and interactions
 - **Responsive Layout** - Mobile, tablet, and desktop optimized
@@ -155,7 +162,7 @@ Click the **Run** button to execute your code instantly.
 
 ---
 
-## 📁 Project Structure
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Open%20File%20Folder.png" width="25" /></picture> Project Structure
 
 ```
 Code-Playground/
@@ -170,7 +177,7 @@ Code-Playground/
 
 ---
 
-## 🤝 Contributing
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="25" /></picture> Contributing
 
 We love contributions! Here's how you can help make Code Playground even better:
 
@@ -201,7 +208,7 @@ We love contributions! Here's how you can help make Code Playground even better:
 
 ---
 
-## 📋 Roadmap
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" width="25" /></picture> Roadmap
 
 - [ ] Add more programming languages (Go, Rust, Ruby)
 - [ ] Implement code sharing functionality
@@ -212,13 +219,13 @@ We love contributions! Here's how you can help make Code Playground even better:
 
 ---
 
-## 📄 License
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20Facing%20Up.png" width="25" /></picture> License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for complete details.
 
 ---
 
-## 🙏 Acknowledgments
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands.png" width="25" /></picture> Acknowledgments
 
 Special thanks to these amazing projects and services:
 
@@ -235,7 +242,7 @@ Special thanks to these amazing projects and services:
 
 ---
 
-## 📧 Contact & Support
+## <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/E-Mail.png" width="25" /></picture> Contact & Support
 
 <div align="center">
   
@@ -253,6 +260,6 @@ Special thanks to these amazing projects and services:
   
   <img src="https://skillicons.dev/icons?i=typescript,react,vite,tailwind" height="40" />
   
-  **⭐ Star this repo if you find it helpful!**
+  <picture><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" width="20" /></picture> **Star this repo if you find it helpful!**
   
 </div>
